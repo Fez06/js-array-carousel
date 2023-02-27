@@ -13,6 +13,5 @@ Al click dell’utente sulle frecce, il programma cambierà l’immagine attiva,
 
 RISOLUZIONE:
             -Creo il corpo html;
-            -Inserisco le immagini in html che avranno display none;
+            -Inserisco le immagini in js che avranno display none;
             -ogni immagine dovra' essere visibile nel momento in cui e' attiva quindi creo una classe per rendere visibile quella attiva;
-            
