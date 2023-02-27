@@ -2,7 +2,7 @@
 
 
 
-{/* <div class="boximg show"><img src="img/01.webp" alt="img"></div>
+/* <div class="boximg show"><img src="img/01.webp" alt="img"></div>
 
 <div class="boximg"><img src="img/02.webp" alt="img"></div>
 
@@ -10,7 +10,7 @@
 
 <div class="boximg"><img src="img/04.webp" alt="img"></div>
 
-<div class="boximg"><img src="img/05.webp" alt="img"></div> */}
+<div class="boximg"><img src="img/05.webp" alt="img"></div> */
 
 
 const imgs = ['img/01.webp', 'img/02.webp', 'img/03.webp', 'img/04.webp', 'img/05.webp'];
@@ -26,7 +26,7 @@ const slider = document.querySelector('.container');
 for (let i = 0; i < imgs.length; i++) {
 
     console.log(imgs[i]);
-    content += `<div class="boximg"><img src="img/${imgs[i]}" alt="img"></div>`
+    content += `<div class="boximg"><img src="${imgs[i]}" alt="img"></div>`
 }
 
 
