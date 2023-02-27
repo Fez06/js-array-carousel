@@ -50,7 +50,9 @@ pageup.addEventListener('click', function(){
         active--;
         allBoxImg[active].classList.add('show');
         console.log(active);
-    }
+    } 
+        
+    
     
 });
 
