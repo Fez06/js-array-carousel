@@ -52,8 +52,6 @@ pageup.addEventListener('click', function(){
         console.log(active);
     } 
         
-    
-    
 });
 
 
